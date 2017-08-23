@@ -3,23 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Магазин</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="main-header"> 
-		<nav class="main-navigation">
-			<a href="index.html">
-				<img src="img/logo.png" alt="Логотип" width="111" height="24">
-			</a>
-			<ul>
-				<li><a href="#">Информация</a></li>
-				<li><a href="#">Новости</a></li>
-				<li><a href="#">Прайс-лист</a></li>
-				<li><a href="#">Магазин</a></li>
-				<li><a href="#">Контакты</a></li>
-			</ul>
-		</nav>
-		<div class="user-block">
-			<a href="#">Вход</a>
+		<div class="container clearfix">
+			<nav class="main-navigation">
+				<a href="index.html">
+					<img src="img/logo.png" alt="Логотип" width="111" height="24">
+				</a>
+				<ul>
+					<li><a href="#">Информация</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Прайс-лист</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a href="#">Вход</a>
+			</div>
 		</div>
 	</header>
 	<main class="container">
@@ -31,105 +34,107 @@
 				<li><a href="#">Средства для ухода</a></li>
 			</ul>
 		</div>
-		<form action="#" method="get">
-			<div class="checkbox">
-				<h2>Производители</h2>
-				<label>
-					<input type="checkbox">Baxter of California
-				</label>
-				<label>
-					<input type="checkbox">Mr Natty
-				</label>
-				<label>
-					<input type="checkbox">Suavecito
-				</label>
-				<label>
-					<input type="checkbox">Malin+Goetz
-				</label>
-				<label>
-					<input type="checkbox">Murray’s
-				</label>
-				<label>
-					<input type="checkbox">American Crew
-				</label>
+		<div class="main clearfix">
+			<form  class="form" action="#" method="get">
+				<div class="checkbox">
+					<h2>Производители</h2>
+					<label>
+						<input type="checkbox">Baxter of California
+					</label>
+					<label>
+						<input type="checkbox">Mr Natty
+					</label>
+					<label>
+						<input type="checkbox">Suavecito
+					</label>
+					<label>
+						<input type="checkbox">Malin+Goetz
+					</label>
+					<label>
+						<input type="checkbox">Murray’s
+					</label>
+					<label>
+						<input type="checkbox">American Crew
+					</label>
+				</div>
+				<div class="radio">
+					<h2>ГРУППЫ ТОВАРОВ:</h2>
+					<label>
+						<input type="radio">Бритвенные принадлежности
+					</label>
+					<label>
+						<input type="radio">Средства для ухода
+					</label>
+					<label>
+						<input type="radio">Аксессуары
+					</label>
+				</div>
+				<a href="#">Показать</a>
+			</form>
+			<div class="products">
+				<article class="product-item">
+					<img src="img/shop-photo1.jpg" alt="Товар" width="220" height="165">
+					<p>
+						Набор для путешествий 
+						«Baxter of California»
+					</p>
+					<span class="price">2 900 РУБ.</span>
+					<a class="buy" href="#">Купить</a>
+				</article>
+				<article class="product-item">
+					<img src="img/shop-photo2.jpg" alt="Товар" width="220" height="165">
+					<p>
+						Увлажняющий кондиционер 
+						«Baxter of California»
+					</p>
+					<span class="price">750 РУБ.</span>
+					<a class="buy" href="#">Купить</a>
+				</article>
+				<article class="product-item">
+					<img src="img/shop-photo3.jpg" alt="Товар" width="220" height="165">
+					<p>
+						Гель для волос
+						«SUAVECITO»	
+					</p>
+					<span class="price">290 РУБ.</span>
+					<a class="buy" href="#">Купить</a>
+				</article>
+				<article class="product-item">
+					<img src="img/shop-photo4.jpg" alt="Товар" width="220" height="165">
+					<p>
+						Глина для укладки волос 
+						«American crew»
+					</p>
+					<span class="price">500 РУБ.</span>
+					<a class="buy" href="#">Купить</a>
+				</article>
+				<article class="product-item">
+					<img src="img/shop-photo5.jpg" alt="Товар" width="220" height="165">
+					<p>
+						Гель для волос
+						«AMERICAN CREW»
+					</p>
+					<span class="price">300 РУБ.</span>
+					<a class="buy" href="#">Купить</a>
+				</article>
+				<article class="product-item">
+					<img src="img/shop-photo6.jpg" alt="Товар" width="220" height="165">
+					<p>
+						Набор для бритья
+						«Baxter of California»
+					</p>
+					<span class="price">3 900 РУБ.</span>
+					<a class="buy" href="#">Купить</a>
+				</article>
+				<div class="pages">
+					<ul>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+					</ul>
+				</div>
 			</div>
-			<div class="radio">
-				<h2>ГРУППЫ ТОВАРОВ:</h2>
-				<label>
-					<input type="radio">Бритвенные принадлежности
-				</label>
-				<label>
-					<input type="radio">Средства для ухода
-				</label>
-				<label>
-					<input type="radio">Аксессуары
-				</label>
-			</div>
-			<a href="#">Показать</a>
-		</form>
-		<section class="product">
-			<article class="product-item">
-				<img src="img/shop-photo1.jpg" alt="Товар" width="220" height="165">
-				<p>
-					Набор для путешествий 
-					«Baxter of California»
-				</p>
-				<span class="price">2 900 РУБ.</span>
-				<a class="buy" href="#">Купить</a>
-			</article>
-			<article class="product-item">
-				<img src="img/shop-photo2.jpg" alt="Товар" width="220" height="165">
-				<p>
-					Увлажняющий кондиционер 
-					«Baxter of California»
-				</p>
-				<span class="price">750 РУБ.</span>
-				<a class="buy" href="#">Купить</a>
-			</article>
-			<article class="product-item">
-				<img src="img/shop-photo3.jpg" alt="Товар" width="220" height="165">
-				<p>
-					Гель для волос
-					«SUAVECITO»	
-				</p>
-				<span class="price">290 РУБ.</span>
-				<a class="buy" href="#">Купить</a>
-			</article>
-			<article class="product-item">
-				<img src="img/shop-photo4.jpg" alt="Товар" width="220" height="165">
-				<p>
-					Глина для укладки волос 
-					«American crew»
-				</p>
-				<span class="price">500 РУБ.</span>
-				<a class="buy" href="#">Купить</a>
-			</article>
-			<article class="product-item">
-				<img src="img/shop-photo5.jpg" alt="Товар" width="220" height="165">
-				<p>
-					Гель для волос
-					«AMERICAN CREW»
-				</p>
-				<span class="price">300 РУБ.</span>
-				<a class="buy" href="#">Купить</a>
-			</article>
-			<article class="product-item">
-				<img src="img/shop-photo6.jpg" alt="Товар" width="220" height="165">
-				<p>
-					Набор для бритья
-					«Baxter of California»
-				</p>
-				<span class="price">3 900 РУБ.</span>
-				<a class="buy" href="#">Купить</a>
-			</article>
-		</section>
-		<div class="pages">
-			<ul>
-				<li><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">4</a></li>
-			</ul>
 		</div>
 	</main>
 	<footer class="main-footer">

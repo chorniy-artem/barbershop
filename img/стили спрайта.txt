@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite--icon-login {
+    width: 18px;
+    height: 16px;
+    background-position: -10px -10px;
+}
+
+.sprite-__ {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -46px;
+}
+
+.sprite-__-hover {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -87px;
+}
+
+.sprite-checkbox-active {
+    width: 12px;
+    height: 12px;
+    background-position: -10px -128px;
+}
+
+.sprite-f {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -160px;
+}
+
+.sprite-f-hover {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -202px;
+}
+
+.sprite-v {
+    width: 25px;
+    height: 16px;
+    background-position: -10px -244px;
+}
+
+.sprite-v-hover {
+    width: 25px;
+    height: 16px;
+    background-position: -10px -280px;
+}
